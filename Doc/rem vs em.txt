@@ -1,0 +1,26 @@
+Rem:
+What is rem?:
+In css rem unit stand for root em.
+Rem can be used to scale the text in a html document
+Rem is relative to root element unlike em which is relative to the font-size of its parent element
+Since rem is based on the root font size it provides a consistent reference point for sizing elements throughout the document regardless of their nesting levels.
+1 Rem = 16px
+
+Usecase:
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+     ---- (The flex has a gap of 16 px)
+Em:
+What is em?
+Em is relative to the font-size of its parent element
+When you set a property using em you're specifying a value relative to the font-size of the parent element.
+This means that the size will adjust dynamically based on changes to the parent font size.
+1 Em = 16px
+Usecase:
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2em;
+     ---- (The flex has a gap of 32 px)

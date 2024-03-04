@@ -7,19 +7,54 @@
                         <!--Different stylesheet for sections-->
     <link rel="stylesheet" href="./Assets/css/main.css">
 
-                        <!--Google fonts & fontawesome icons-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-
-    <title>Html Boilerplate</title>
+    <title>Rem & Em Tutorial</title>
+    <script src="./Assets/js/app.js" defer></script>
 </head>
 <body>
+    <style>
+        .normal {
+            font-size: 30px;
+        }
+
+        .normal .rem {
+            font-size: 3rem;
+        }
+
+        .normal .em {
+            font-size: 2em;
+        }
+
+        .large {
+            font-size: 20px;
+        }
+
+        .large .rem {
+            font-size: 3rem;
+        }
+
+        .large .em {
+            font-size: 3em;
+        }
+    </style>
     <header></header>
     <main>
         <section>
-            
+            <div class="normal">
+                <header><h2>Normal Container</h2></header>
+                <div>
+                    <p class="rem">Rem</p>
+                    <p class="em">Em</p>
+                </div>
+            </div>
+            <div class="large">
+                <header><h2>Large Container</h2></header>
+                <div>
+                    <p class="rem">Rem</p>
+                    <p class="em">Em</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer></footer>
-    <script src="./Assets/js/app.js"></script>
 </body>
 </html>
